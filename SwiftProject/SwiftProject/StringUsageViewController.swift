@@ -13,6 +13,9 @@ class StringUsageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //去掉返回按钮的文字
+        self.navigationController?.navigationBar.topItem?.title = ""
+        self.title = "字符串"
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
         
@@ -222,13 +225,72 @@ class StringUsageViewController: UIViewController {
         }else{
             print("没有")
         }
+        
+        //截取
+        let str = "1234567890"
+        print(str.prefix(3))//截取前三位
+        print(str.suffix(3))//截取后三位
+        
+         //拼接字符串1
+         var kStr = "Hello"
+         kStr.append(" World!")
+         print(kStr)
+         //拼接字符串2
+         let appid = "appId"
+         let tokens = "token"
+         let xxx = "\(appid)\(tokens)"
+         print(xxx)
+         //拼接字符串3
+         var a = "a"
+         a += "bort"
+         print(a)
+         //截取‘:’前面所有的字符串1
+         let jianshu = "https://jianshu.com"
+         let range : Range = jianshu.range(of: ":")!
+         let location : Int = jianshu.distance(from: jianshu.startIndex, to: range.lowerBound)
+         let subStr = jianshu.prefix(location)
+         print(subStr)
+         //截取‘:’前面所有的字符串(结果包含‘:’)
+         let location2 : Int = jianshu.distance(from: jianshu.startIndex, to: range.upperBound)
+         let subStr2 = jianshu.prefix(location2)
+         print(subStr2)
+         
+         //截取':'后面的所有字符串
+         let subStr3 = jianshu.suffix(jianshu.count - location2)
+         print(subStr3)
+         //截取':'后面的所有字符串(结果包含‘:’)
+         let subStr4 = jianshu.suffix(jianshu.count - location)
+         print(subStr4)
+         
+         //1、String.Index
+         //String.Index表示一个位置，使用String与String.Index可以获取该位置的Character
+         let digit = "123456789"
+         let start2 = digit.startIndex
+         let end2 = digit.endIndex
+         let startOffset = digit.index(start2, offsetBy: 2)
+         let endOffset = digit.index(end2, offsetBy: -2)
+         print(digit[start2])
+         print(str[startOffset])//输出 3 第3个字符
+         print(str[endOffset])//输出 8 第8个字符（10-2）
+        // String类型的字符串截取方法，使用的是字符串切片的原理，直接对原字符串做修改，所以必须用var定义变量名。
+         var digits = "123456"
+         digits.removeLast()
+         digits = "123456"
+         print(digits)
+         digits = "123456"
+         digits.removeLast(2)
+         print(digits)
+         digits = "123456"
+         digits.remove(at: digits.startIndex)
+         print(digits)
+
 
     }
     
     // MARK: - 字符串的其他用法
     func stringOtherUsage() {
         //注意这里是变量
-        var str:String = "av,1,2,3,4,5,6,7,8,a,b,c,d,e"
+        var str:String = "ad,1,2,3,4,5,6,7,8,a,b,c,d,e"
         //获取字符串长度
         print(str.count)
         if str.count>3 {
@@ -253,7 +315,7 @@ class StringUsageViewController: UIViewController {
         let str4 = str.replacingOccurrences(of: ",", with: "")
         print(str4)
         //判断是否包含某个字符串
-        if str.range(of: "av") != nil {
+        if str.range(of: "ad") != nil {
             print("包含")
         }
         if str == str3 {
