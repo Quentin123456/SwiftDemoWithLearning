@@ -19,6 +19,7 @@
 		17659A9C23BC5A6600462C46 /* StringUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */; };
 		4AD12007C115B2500677B6E3 /* Pods_SwiftProject_SwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82486BFC5958097DB2548A2 /* Pods_SwiftProject_SwiftProjectUITests.framework */; };
 		5B39FCE367DC3616C91652B6 /* Pods_SwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F71B362217682436FD0AB9 /* Pods_SwiftProjectTests.framework */; };
+		A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		51CA800F057DDB26F84E4E45 /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		93F71B362217682436FD0AB9 /* Pods_SwiftProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7B3527779C693608D1E9B1 /* Pods-SwiftProject-SwiftProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-SwiftProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject-SwiftProjectUITests/Pods-SwiftProject-SwiftProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		C82486BFC5958097DB2548A2 /* Pods_SwiftProject_SwiftProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_SwiftProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28607C5832B2B1B56495DD7 /* Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject-SwiftProjectUITests/Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				17659A6D23BBAAE600462C46 /* SceneDelegate.swift */,
 				17659A6F23BBAAE600462C46 /* ViewController.swift */,
 				17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */,
+				A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */,
 				17659A7123BBAAE600462C46 /* Main.storyboard */,
 				17659A7423BBAAE800462C46 /* Assets.xcassets */,
 				17659A7623BBAAE800462C46 /* LaunchScreen.storyboard */,
@@ -414,6 +417,7 @@
 				17659A9C23BC5A6600462C46 /* StringUsageViewController.swift in Sources */,
 				17659A6C23BBAAE600462C46 /* AppDelegate.swift in Sources */,
 				17659A6E23BBAAE600462C46 /* SceneDelegate.swift in Sources */,
+				A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
