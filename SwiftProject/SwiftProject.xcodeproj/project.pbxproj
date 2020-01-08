@@ -20,6 +20,11 @@
 		4AD12007C115B2500677B6E3 /* Pods_SwiftProject_SwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82486BFC5958097DB2548A2 /* Pods_SwiftProject_SwiftProjectUITests.framework */; };
 		5B39FCE367DC3616C91652B6 /* Pods_SwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F71B362217682436FD0AB9 /* Pods_SwiftProjectTests.framework */; };
 		A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */; };
+		A124FAB023C5C9C700FC5560 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAAF23C5C9C700FC5560 /* ClosureViewController.swift */; };
+		A124FAB223C5C9DE00FC5560 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAB123C5C9DE00FC5560 /* CollectionViewController.swift */; };
+		A124FAB423C5D01E00FC5560 /* ControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAB323C5D01E00FC5560 /* ControlFlowViewController.swift */; };
+		A124FAB623C5D0AB00FC5560 /* EnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAB523C5D0AB00FC5560 /* EnumerationsViewController.swift */; };
+		A124FAB823C5D0EF00FC5560 /* FuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAB723C5D0EF00FC5560 /* FuctionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		93F71B362217682436FD0AB9 /* Pods_SwiftProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7B3527779C693608D1E9B1 /* Pods-SwiftProject-SwiftProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-SwiftProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject-SwiftProjectUITests/Pods-SwiftProject-SwiftProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		A124FAAF23C5C9C700FC5560 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		A124FAB123C5C9DE00FC5560 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A124FAB323C5D01E00FC5560 /* ControlFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewController.swift; sourceTree = "<group>"; };
+		A124FAB523C5D0AB00FC5560 /* EnumerationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationsViewController.swift; sourceTree = "<group>"; };
+		A124FAB723C5D0EF00FC5560 /* FuctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuctionsViewController.swift; sourceTree = "<group>"; };
 		C82486BFC5958097DB2548A2 /* Pods_SwiftProject_SwiftProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_SwiftProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28607C5832B2B1B56495DD7 /* Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject-SwiftProjectUITests/Pods-SwiftProject-SwiftProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +133,11 @@
 				17659A6B23BBAAE600462C46 /* AppDelegate.swift */,
 				17659A6D23BBAAE600462C46 /* SceneDelegate.swift */,
 				17659A6F23BBAAE600462C46 /* ViewController.swift */,
+				A124FAAF23C5C9C700FC5560 /* ClosureViewController.swift */,
+				A124FAB123C5C9DE00FC5560 /* CollectionViewController.swift */,
+				A124FAB323C5D01E00FC5560 /* ControlFlowViewController.swift */,
+				A124FAB523C5D0AB00FC5560 /* EnumerationsViewController.swift */,
+				A124FAB723C5D0EF00FC5560 /* FuctionsViewController.swift */,
 				17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */,
 				A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */,
 				17659A7123BBAAE600462C46 /* Main.storyboard */,
@@ -413,11 +428,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A124FAB023C5C9C700FC5560 /* ClosureViewController.swift in Sources */,
+				A124FAB623C5D0AB00FC5560 /* EnumerationsViewController.swift in Sources */,
 				17659A7023BBAAE600462C46 /* ViewController.swift in Sources */,
+				A124FAB423C5D01E00FC5560 /* ControlFlowViewController.swift in Sources */,
 				17659A9C23BC5A6600462C46 /* StringUsageViewController.swift in Sources */,
 				17659A6C23BBAAE600462C46 /* AppDelegate.swift in Sources */,
+				A124FAB223C5C9DE00FC5560 /* CollectionViewController.swift in Sources */,
 				17659A6E23BBAAE600462C46 /* SceneDelegate.swift in Sources */,
 				A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */,
+				A124FAB823C5D0EF00FC5560 /* FuctionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

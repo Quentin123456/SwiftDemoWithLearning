@@ -189,11 +189,14 @@ class StringUsageViewController: UIViewController {
         //反转字符串
         //lableTest.text = String(s.reversed())
         print(s[sub0],s[sub1],s[sub2],s[sub3],s[sub4],s[sub5],sub6,sub7)
-        //字符串换行
+        
+        //多行字符串文字
         let name = """
-                        qweqwe
-                        qweqwe
-                        sdfsdfsdf
+                       The White Rabbit put on his spectacles.  "Where shall I begin,
+                        please your Majesty?" he asked.
+
+                        "Begin at the beginning," the King said gravely, "and go on
+                        till you come to the end; then stop."
                    """
         print(name)
        
