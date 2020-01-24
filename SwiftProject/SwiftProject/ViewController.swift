@@ -137,23 +137,23 @@ class ViewController: UIViewController {
         functionBtn.snp.makeConstraints { (make) in
             make.top.equalTo(enumBtn.snp.bottom).offset(10 * screenScale)
             make.height.right.left.equalTo(collectionBtn)
-            make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
+            //make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
         }
         
-//        let summaryBtn = UIButton(type: .custom)
-//        summaryBtn.setTitle("总结", for: .normal)
-//        summaryBtn.backgroundColor = .gray
-//        summaryBtn.tag = 0x100001
-//        summaryBtn.layer.masksToBounds = true
-//        summaryBtn.layer.cornerRadius = 8
-//        summaryBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
-//        summaryBtn.addTarget(self, action: #selector(buttonClicked(_sender:)), for: .touchUpInside)
-//        contentView.addSubview(summaryBtn)
-//        summaryBtn.snp.makeConstraints { (make) in
-//            make.top.equalTo(stringBtn.snp.bottom).offset(10 * screenScale)
-//            make.height.right.left.equalTo(stringBtn)
-//             make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
-//        }
+        let structClassBtn = UIButton(type: .custom)
+        structClassBtn.setTitle("结构和类", for: .normal)
+        structClassBtn.backgroundColor = .gray
+        structClassBtn.tag = 0x100006
+        structClassBtn.layer.masksToBounds = true
+        structClassBtn.layer.cornerRadius = 8
+        structClassBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
+        structClassBtn.addTarget(self, action: #selector(buttonClicked(_sender:)), for: .touchUpInside)
+        contentView.addSubview(structClassBtn)
+        structClassBtn.snp.makeConstraints { (make) in
+            make.top.equalTo(functionBtn.snp.bottom).offset(10 * screenScale)
+            make.height.right.left.equalTo(functionBtn)
+             make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
+        }
         
         
     }
@@ -177,7 +177,10 @@ class ViewController: UIViewController {
            self.navigationController?.pushViewController(enumVC, animated: true)
         } else if _sender.tag == 0x100005 {
             let functionVC = FuctionsViewController()
-            self.navigationController?.pushViewController(functionVC, animated: true)
+         self.navigationController?.pushViewController(functionVC, animated: true)
+        } else if _sender.tag == 0x100006 {
+            let structClassVC = StructureAndClassController()
+         self.navigationController?.pushViewController(structClassVC, animated: true)
         }
     }
 
