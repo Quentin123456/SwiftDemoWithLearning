@@ -15,7 +15,7 @@ class FuctionsViewController: UIViewController {
 
        //去掉返回按钮的文字
         self.navigationController?.navigationBar.topItem?.title = ""
-        self.title = "方法"
+        self.title = "功能"
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
         

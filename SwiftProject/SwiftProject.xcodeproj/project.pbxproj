@@ -18,6 +18,24 @@
 		17659A8E23BBAAE800462C46 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17659A8D23BBAAE800462C46 /* SwiftProjectUITests.swift */; };
 		17659A9C23BC5A6600462C46 /* StringUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */; };
 		17AC3A9D23DB1927003BC84D /* StructureAndClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3A9C23DB1927003BC84D /* StructureAndClassController.swift */; };
+		17AC3A9F23DC272E003BC84D /* PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3A9E23DC272E003BC84D /* PropertiesViewController.swift */; };
+		17AC3AA123DC2762003BC84D /* SubscriptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AA023DC2762003BC84D /* SubscriptsViewController.swift */; };
+		17AC3AA323DC2776003BC84D /* InheritanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AA223DC2776003BC84D /* InheritanceViewController.swift */; };
+		17AC3AA523DC2785003BC84D /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AA423DC2785003BC84D /* InitializationViewController.swift */; };
+		17AC3AA723DC2795003BC84D /* DeinitizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AA623DC2795003BC84D /* DeinitizationViewController.swift */; };
+		17AC3AA923DC27AF003BC84D /* OptianalChainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AA823DC27AF003BC84D /* OptianalChainingViewController.swift */; };
+		17AC3AAB23DC27C0003BC84D /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AAA23DC27C0003BC84D /* ErrorHandlingViewController.swift */; };
+		17AC3AAD23DC27E1003BC84D /* TypeCastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AAC23DC27E1003BC84D /* TypeCastingViewController.swift */; };
+		17AC3AAF23DC27F3003BC84D /* NestedTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AAE23DC27F3003BC84D /* NestedTypesViewController.swift */; };
+		17AC3AB123DC2801003BC84D /* ExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AB023DC2801003BC84D /* ExtensionsViewController.swift */; };
+		17AC3AB323DC2810003BC84D /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AB223DC2810003BC84D /* ProtocolViewController.swift */; };
+		17AC3AB523DC2834003BC84D /* GenericsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AB423DC2834003BC84D /* GenericsViewController.swift */; };
+		17AC3AB723DC2848003BC84D /* OpaqueTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AB623DC2848003BC84D /* OpaqueTypesViewController.swift */; };
+		17AC3ABD23DC2885003BC84D /* MermorySafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3ABC23DC2885003BC84D /* MermorySafetyViewController.swift */; };
+		17AC3ABF23DC2895003BC84D /* AccessControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3ABE23DC2895003BC84D /* AccessControlViewController.swift */; };
+		17AC3AC123DC28AB003BC84D /* AdvancedOperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AC023DC28AB003BC84D /* AdvancedOperationsViewController.swift */; };
+		17AC3AC323DC292C003BC84D /* MethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AC223DC292C003BC84D /* MethodViewController.swift */; };
+		17AC3AC523DC2AD6003BC84D /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC3AC423DC2AD6003BC84D /* ARCViewController.swift */; };
 		4AD12007C115B2500677B6E3 /* Pods_SwiftProject_SwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82486BFC5958097DB2548A2 /* Pods_SwiftProject_SwiftProjectUITests.framework */; };
 		5B39FCE367DC3616C91652B6 /* Pods_SwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F71B362217682436FD0AB9 /* Pods_SwiftProjectTests.framework */; };
 		A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */; };
@@ -62,6 +80,24 @@
 		17659A8F23BBAAE800462C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUsageViewController.swift; sourceTree = "<group>"; };
 		17AC3A9C23DB1927003BC84D /* StructureAndClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureAndClassController.swift; sourceTree = "<group>"; };
+		17AC3A9E23DC272E003BC84D /* PropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesViewController.swift; sourceTree = "<group>"; };
+		17AC3AA023DC2762003BC84D /* SubscriptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptsViewController.swift; sourceTree = "<group>"; };
+		17AC3AA223DC2776003BC84D /* InheritanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceViewController.swift; sourceTree = "<group>"; };
+		17AC3AA423DC2785003BC84D /* InitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
+		17AC3AA623DC2795003BC84D /* DeinitizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeinitizationViewController.swift; sourceTree = "<group>"; };
+		17AC3AA823DC27AF003BC84D /* OptianalChainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptianalChainingViewController.swift; sourceTree = "<group>"; };
+		17AC3AAA23DC27C0003BC84D /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
+		17AC3AAC23DC27E1003BC84D /* TypeCastingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCastingViewController.swift; sourceTree = "<group>"; };
+		17AC3AAE23DC27F3003BC84D /* NestedTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesViewController.swift; sourceTree = "<group>"; };
+		17AC3AB023DC2801003BC84D /* ExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsViewController.swift; sourceTree = "<group>"; };
+		17AC3AB223DC2810003BC84D /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
+		17AC3AB423DC2834003BC84D /* GenericsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewController.swift; sourceTree = "<group>"; };
+		17AC3AB623DC2848003BC84D /* OpaqueTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueTypesViewController.swift; sourceTree = "<group>"; };
+		17AC3ABC23DC2885003BC84D /* MermorySafetyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MermorySafetyViewController.swift; sourceTree = "<group>"; };
+		17AC3ABE23DC2895003BC84D /* AccessControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewController.swift; sourceTree = "<group>"; };
+		17AC3AC023DC28AB003BC84D /* AdvancedOperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedOperationsViewController.swift; sourceTree = "<group>"; };
+		17AC3AC223DC292C003BC84D /* MethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodViewController.swift; sourceTree = "<group>"; };
+		17AC3AC423DC2AD6003BC84D /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
 		317D71496F5B2B33DD00333C /* Pods-SwiftProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTests/Pods-SwiftProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		41B594C6F4AF8E82BAA04F8B /* Pods-SwiftProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTests/Pods-SwiftProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		43347B42D14CC449A8C7D375 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +179,24 @@
 				17659A9B23BC5A6600462C46 /* StringUsageViewController.swift */,
 				A124FAAB23C368DB00FC5560 /* SummaryViewController.swift */,
 				17AC3A9C23DB1927003BC84D /* StructureAndClassController.swift */,
+				17AC3A9E23DC272E003BC84D /* PropertiesViewController.swift */,
+				17AC3AC223DC292C003BC84D /* MethodViewController.swift */,
+				17AC3AA023DC2762003BC84D /* SubscriptsViewController.swift */,
+				17AC3AA223DC2776003BC84D /* InheritanceViewController.swift */,
+				17AC3AA423DC2785003BC84D /* InitializationViewController.swift */,
+				17AC3AA623DC2795003BC84D /* DeinitizationViewController.swift */,
+				17AC3AA823DC27AF003BC84D /* OptianalChainingViewController.swift */,
+				17AC3AAA23DC27C0003BC84D /* ErrorHandlingViewController.swift */,
+				17AC3AAC23DC27E1003BC84D /* TypeCastingViewController.swift */,
+				17AC3AAE23DC27F3003BC84D /* NestedTypesViewController.swift */,
+				17AC3AB023DC2801003BC84D /* ExtensionsViewController.swift */,
+				17AC3AB223DC2810003BC84D /* ProtocolViewController.swift */,
+				17AC3AB423DC2834003BC84D /* GenericsViewController.swift */,
+				17AC3AB623DC2848003BC84D /* OpaqueTypesViewController.swift */,
+				17AC3AC423DC2AD6003BC84D /* ARCViewController.swift */,
+				17AC3ABC23DC2885003BC84D /* MermorySafetyViewController.swift */,
+				17AC3ABE23DC2895003BC84D /* AccessControlViewController.swift */,
+				17AC3AC023DC28AB003BC84D /* AdvancedOperationsViewController.swift */,
 				17659A7123BBAAE600462C46 /* Main.storyboard */,
 				17659A7423BBAAE800462C46 /* Assets.xcassets */,
 				17659A7623BBAAE800462C46 /* LaunchScreen.storyboard */,
@@ -431,17 +485,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AC3AB323DC2810003BC84D /* ProtocolViewController.swift in Sources */,
+				17AC3AB723DC2848003BC84D /* OpaqueTypesViewController.swift in Sources */,
+				17AC3AA123DC2762003BC84D /* SubscriptsViewController.swift in Sources */,
+				17AC3AAF23DC27F3003BC84D /* NestedTypesViewController.swift in Sources */,
 				A124FAB023C5C9C700FC5560 /* ClosureViewController.swift in Sources */,
+				17AC3AA723DC2795003BC84D /* DeinitizationViewController.swift in Sources */,
 				A124FAB623C5D0AB00FC5560 /* EnumerationsViewController.swift in Sources */,
 				17659A7023BBAAE600462C46 /* ViewController.swift in Sources */,
 				A124FAB423C5D01E00FC5560 /* ControlFlowViewController.swift in Sources */,
+				17AC3AA323DC2776003BC84D /* InheritanceViewController.swift in Sources */,
 				17659A9C23BC5A6600462C46 /* StringUsageViewController.swift in Sources */,
+				17AC3A9F23DC272E003BC84D /* PropertiesViewController.swift in Sources */,
+				17AC3AA923DC27AF003BC84D /* OptianalChainingViewController.swift in Sources */,
+				17AC3AC123DC28AB003BC84D /* AdvancedOperationsViewController.swift in Sources */,
+				17AC3AA523DC2785003BC84D /* InitializationViewController.swift in Sources */,
+				17AC3AAD23DC27E1003BC84D /* TypeCastingViewController.swift in Sources */,
 				17659A6C23BBAAE600462C46 /* AppDelegate.swift in Sources */,
 				A124FAB223C5C9DE00FC5560 /* CollectionViewController.swift in Sources */,
 				17AC3A9D23DB1927003BC84D /* StructureAndClassController.swift in Sources */,
+				17AC3AAB23DC27C0003BC84D /* ErrorHandlingViewController.swift in Sources */,
+				17AC3AC323DC292C003BC84D /* MethodViewController.swift in Sources */,
 				17659A6E23BBAAE600462C46 /* SceneDelegate.swift in Sources */,
+				17AC3AC523DC2AD6003BC84D /* ARCViewController.swift in Sources */,
+				17AC3AB523DC2834003BC84D /* GenericsViewController.swift in Sources */,
+				17AC3ABF23DC2895003BC84D /* AccessControlViewController.swift in Sources */,
 				A124FAAC23C368DB00FC5560 /* SummaryViewController.swift in Sources */,
+				17AC3AB123DC2801003BC84D /* ExtensionsViewController.swift in Sources */,
 				A124FAB823C5D0EF00FC5560 /* FuctionsViewController.swift in Sources */,
+				17AC3ABD23DC2885003BC84D /* MermorySafetyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
