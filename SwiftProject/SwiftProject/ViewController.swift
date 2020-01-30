@@ -392,7 +392,7 @@ class ViewController: UIViewController {
         }
                
        let advancedBtn = UIButton(type: .custom)
-       advancedBtn.setTitle("高级可选", for: .normal)
+       advancedBtn.setTitle("高级操作符", for: .normal)
        advancedBtn.backgroundColor = .magenta
        advancedBtn.tag = 0x100024
        advancedBtn.layer.masksToBounds = true
