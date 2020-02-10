@@ -403,8 +403,22 @@ class ViewController: UIViewController {
        advancedBtn.snp.makeConstraints { (make) in
            make.top.equalTo(accessControlBtn.snp.bottom).offset(10 * screenScale)
            make.height.right.left.equalTo(accessControlBtn)
-           make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
        }
+        
+        let summaryBtn = UIButton(type: .custom)
+        summaryBtn.setTitle("总结", for: .normal)
+        summaryBtn.backgroundColor = .brown
+        summaryBtn.tag = 0x100025
+        summaryBtn.layer.masksToBounds = true
+        summaryBtn.layer.cornerRadius = 8
+        summaryBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
+        summaryBtn.addTarget(self, action: #selector(buttonClicked(_sender:)), for: .touchUpInside)
+        contentView.addSubview(summaryBtn)
+        summaryBtn.snp.makeConstraints { (make) in
+            make.top.equalTo(advancedBtn.snp.bottom).offset(10 * screenScale)
+            make.height.right.left.equalTo(advancedBtn)
+            make.bottom.equalToSuperview().offset(-10 * screenScale)//必须加这一句最后，否则scrollView不起效果
+        }
         
     }
     
@@ -485,6 +499,9 @@ class ViewController: UIViewController {
         } else if _sender.tag == 0x100024 {
             let advancedVC = AdvancedOperationsViewController()
          self.navigationController?.pushViewController(advancedVC, animated: true)
+        } else if _sender.tag == 0x100025 {
+            let summaryVC = SummaryViewController()
+         self.navigationController?.pushViewController(summaryVC, animated: true)
         }
     }
 
